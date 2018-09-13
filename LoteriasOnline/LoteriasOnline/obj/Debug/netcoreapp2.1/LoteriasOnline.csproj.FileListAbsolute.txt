@@ -1,0 +1,14 @@
+C:\Users\Laila\source\repos\LoteriasOnline\LoteriasOnline\bin\Debug\netcoreapp2.1\LoteriasOnline.deps.json
+C:\Users\Laila\source\repos\LoteriasOnline\LoteriasOnline\bin\Debug\netcoreapp2.1\LoteriasOnline.runtimeconfig.json
+C:\Users\Laila\source\repos\LoteriasOnline\LoteriasOnline\bin\Debug\netcoreapp2.1\LoteriasOnline.runtimeconfig.dev.json
+C:\Users\Laila\source\repos\LoteriasOnline\LoteriasOnline\bin\Debug\netcoreapp2.1\LoteriasOnline.dll
+C:\Users\Laila\source\repos\LoteriasOnline\LoteriasOnline\bin\Debug\netcoreapp2.1\LoteriasOnline.pdb
+C:\Users\Laila\source\repos\LoteriasOnline\LoteriasOnline\obj\Debug\netcoreapp2.1\LoteriasOnline.csproj.CoreCompileInputs.cache
+C:\Users\Laila\source\repos\LoteriasOnline\LoteriasOnline\obj\Debug\netcoreapp2.1\LoteriasOnline.RazorAssemblyInfo.cache
+C:\Users\Laila\source\repos\LoteriasOnline\LoteriasOnline\obj\Debug\netcoreapp2.1\LoteriasOnline.RazorAssemblyInfo.cs
+C:\Users\Laila\source\repos\LoteriasOnline\LoteriasOnline\obj\Debug\netcoreapp2.1\LoteriasOnline.AssemblyInfoInputs.cache
+C:\Users\Laila\source\repos\LoteriasOnline\LoteriasOnline\obj\Debug\netcoreapp2.1\LoteriasOnline.AssemblyInfo.cs
+C:\Users\Laila\source\repos\LoteriasOnline\LoteriasOnline\obj\Debug\netcoreapp2.1\LoteriasOnline.RazorTargetAssemblyInfo.cache
+C:\Users\Laila\source\repos\LoteriasOnline\LoteriasOnline\obj\Debug\netcoreapp2.1\LoteriasOnline.dll
+C:\Users\Laila\source\repos\LoteriasOnline\LoteriasOnline\obj\Debug\netcoreapp2.1\LoteriasOnline.pdb
+C:\Users\Laila\source\repos\LoteriasOnline\LoteriasOnline\obj\Debug\netcoreapp2.1\LoteriasOnline.csprojAssemblyReference.cache

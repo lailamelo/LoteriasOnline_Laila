@@ -1,0 +1,17 @@
+C:\Users\Laila\source\repos\LoteriasOnline\TesteUnitario\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Laila\source\repos\LoteriasOnline\TesteUnitario\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Laila\source\repos\LoteriasOnline\TesteUnitario\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Laila\source\repos\LoteriasOnline\TesteUnitario\bin\Debug\netcoreapp2.1\TesteUnitario.deps.json
+C:\Users\Laila\source\repos\LoteriasOnline\TesteUnitario\bin\Debug\netcoreapp2.1\TesteUnitario.runtimeconfig.json
+C:\Users\Laila\source\repos\LoteriasOnline\TesteUnitario\bin\Debug\netcoreapp2.1\TesteUnitario.runtimeconfig.dev.json
+C:\Users\Laila\source\repos\LoteriasOnline\TesteUnitario\bin\Debug\netcoreapp2.1\TesteUnitario.dll
+C:\Users\Laila\source\repos\LoteriasOnline\TesteUnitario\bin\Debug\netcoreapp2.1\TesteUnitario.pdb
+C:\Users\Laila\source\repos\LoteriasOnline\TesteUnitario\bin\Debug\netcoreapp2.1\LoteriasOnline.dll
+C:\Users\Laila\source\repos\LoteriasOnline\TesteUnitario\bin\Debug\netcoreapp2.1\LoteriasOnline.pdb
+C:\Users\Laila\source\repos\LoteriasOnline\TesteUnitario\obj\Debug\netcoreapp2.1\TesteUnitario.csprojAssemblyReference.cache
+C:\Users\Laila\source\repos\LoteriasOnline\TesteUnitario\obj\Debug\netcoreapp2.1\TesteUnitario.csproj.CoreCompileInputs.cache
+C:\Users\Laila\source\repos\LoteriasOnline\TesteUnitario\obj\Debug\netcoreapp2.1\TesteUnitario.AssemblyInfoInputs.cache
+C:\Users\Laila\source\repos\LoteriasOnline\TesteUnitario\obj\Debug\netcoreapp2.1\TesteUnitario.AssemblyInfo.cs
+C:\Users\Laila\source\repos\LoteriasOnline\TesteUnitario\obj\Debug\netcoreapp2.1\TesteUnitario.csproj.CopyComplete
+C:\Users\Laila\source\repos\LoteriasOnline\TesteUnitario\obj\Debug\netcoreapp2.1\TesteUnitario.dll
+C:\Users\Laila\source\repos\LoteriasOnline\TesteUnitario\obj\Debug\netcoreapp2.1\TesteUnitario.pdb
