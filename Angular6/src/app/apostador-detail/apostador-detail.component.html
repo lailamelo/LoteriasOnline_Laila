@@ -1,0 +1,18 @@
+<div *ngIf="apostador">
+  <h1>Dados do Apostador</h1>
+  <div><label>Id: </label>{{apostador.id}}</div>
+  <div>
+    <label>Nome:
+      <input [(ngModel)]="apostador.name" placeholder="Informe o nome do Apostador"/>
+    </label>
+  </div>
+  <button (click)="goBack()">VOLTAR</button>
+  <button (click)="save()">SALVAR</button>
+</div>
+
+
+<!-- 
+Copyright 2017-2018 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->

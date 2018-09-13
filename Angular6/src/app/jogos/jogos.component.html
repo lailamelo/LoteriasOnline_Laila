@@ -1,0 +1,38 @@
+<h1>Jogos</h1>
+
+<div>
+  <!-- <label>Jogo:
+    <input #jogoNumeros />
+  </label> -->
+  <!-- (click) passes input value to add() and then clears the input -->
+  <!-- <button (click)="add(jogoNumeros.value); jogoNumeros.value=''">
+    Adicionar
+  </button> -->
+  <!--<button routerLink="/detailJogo/0/0">
+    Adicionar
+    </button>-->
+</div>
+
+<ul class="jogos">
+  <li *ngFor="let jogo of jogos">
+    <a routerLink="/detailJogo/{{jogo.id}}/0">
+      <table>
+        <tr>
+        <td><span class="badge">{{jogo.id}}</span></td>
+		<td><span>{{jogo.apostador.name}}</span></td>
+		<td><span>{{jogo.name}}</span></td>
+        <td><span>{{jogo.dthr}}</span></td> 
+        </tr>
+        </table>
+    </a>
+    <button class="delete" title="delete jogo"
+      (click)="delete(jogo)">x</button>
+  </li>
+</ul>
+
+
+<!-- 
+Copyright 2017-2018 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->

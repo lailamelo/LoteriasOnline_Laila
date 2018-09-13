@@ -1,0 +1,19 @@
+<div id="search-component">
+
+  <input #searchBox id="search-box" (keyup)="searchResult.style=('display:block'); search(searchBox.value)" />
+
+  <ul #searchResult class="search-result">
+    <li *ngFor="let apostador of apostadores" >
+      <a (click)="onSelect(apostador); searchBox.value = selectedApostador.name; searchResult.style=('display:none');">
+        {{apostador.name}}
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+<!-- 
+Copyright 2017-2018 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->

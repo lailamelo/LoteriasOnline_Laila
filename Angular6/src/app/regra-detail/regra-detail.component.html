@@ -1,0 +1,26 @@
+<div *ngIf="regra">
+  <h1>Dados da Regra</h1>
+  <!-- <h2>{{regra.name | uppercase}}</h2> -->
+  <div><label>Id: </label>{{regra.id}}</div>
+  <div>
+    <label>Nome:
+      <input [(ngModel)]="regra.name" placeholder="Informe o nome da regra"/>
+    </label>
+  </div>
+  <div>
+  <label>Qtd acertos: 
+  <input [(ngModel)]="regra.qtd_vencer"/>
+  </label>
+  </div>
+  <div>
+  <button (click)="goBack()">VOLTAR</button>
+  <button (click)="save()">SALVAR</button>
+  </div>
+</div>
+
+
+<!-- 
+Copyright 2017-2018 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->

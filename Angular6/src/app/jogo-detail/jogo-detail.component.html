@@ -1,0 +1,101 @@
+<!-- <div *ngIf="jogo"> -->
+<!-- original -->
+<div>
+	<h1>Dados do Jogo</h1>
+
+	
+	<div *ngIf="jogo == null || jogo == undefined || jogo.id === 0">
+		<label>Id: </label>0
+	</div>
+	
+	<div *ngIf="jogo != null && jogo.lista_numeros.length > 0">
+		<label>Id: </label>{{jogo.id}}
+	</div>
+
+	<div *ngIf="jogo != null && jogo.lista_numeros.length > 0">
+		<label>Produto:
+      <input [(ngModel)]="jogo.produto.name" [readOnly]="true" />
+    </label>
+	</div>
+	
+	<div *ngIf="jogo == null || jogo == undefined || jogo.id === 0">
+		<label>Produto:
+		  <!--<select (ngModelChange)="setNewJogo($event)" (ngModel)="selectedProduto"> 
+			<option *ngFor="let produto of produtos" [ngValue]="produto.id"> {{produto.name}} </option> 
+		  </select>-->
+		  <select [disabled]="true"> 
+			<option *ngFor="let item of produtos" [ngValue]="item" [selected]="item.id === selectedProduto.id"> {{selectedProduto.name}} </option> 
+		  </select>
+		</label>	
+	</div>
+
+	<div *ngIf="jogo != null && jogo.lista_numeros.length > 0">
+		<label>Apostador:
+      <input [(ngModel)]="jogo.apostador.name" [readOnly]="true" />
+    </label>
+	</div>
+	
+	<div *ngIf="jogo == null ||jogo == undefined || jogo.id === 0">
+		<label>Apostador:
+		  <select [(ngModel)]="selectedApostador"> 
+			<option *ngFor="let apostador of apostadores" [ngValue]="apostador.id" > {{apostador.name}} </option> 
+		  </select>
+		</label>	
+	</div>
+	    
+	<div *ngIf="jogo != null && jogo.lista_numeros.length > 0">
+			<label>Números escolhidos:
+        <div *ngFor="let item of jogo.lista_numeros">
+        <span class="checkboxtext">
+          {{item}}
+          </span><br>&nbsp;
+          </div>
+		</label>
+		</div>
+		
+		
+
+		<!--<div *ngIf="jogo == null ||jogo == undefined || jogo.id === 0">
+		<label>Cartela:
+        <div *ngFor="let item of createRange(60)">
+          <input type="checkbox" name="{{item}}" value="{{item}}" title="{{item}}" />
+          <span>
+            {{item}}
+          </span>
+        </div>
+		</label>
+		</div> -->
+		<div *ngIf="jogo == null ||jogo == undefined || jogo.id === 0">
+			<label>
+			Nº escolhido:
+			<input type="number" name="numero" min="1" [(ngModel)]="numeroInformado" max="{{selectedProduto.qtd_max}}" />
+			<button (click)="adicionarNumero()">ADICIONAR</button>
+			</label>
+		</div>
+		<div *ngIf="jogo == null ||jogo == undefined || jogo.id === 0">
+			<label>Números escolhidos:
+        <div *ngFor="let item of lista_numeros">
+        <span class="checkboxtext">
+          {{item}}
+          </span><br>&nbsp;
+          </div>
+		</label>
+		</div>
+
+    <div *ngIf="jogo != null && jogo.lista_numeros.length > 0">
+		<label>Feito: </label>{{jogo.dthr}}
+	</div>
+
+		<button (click)="goBack()">VOLTAR</button>
+    <div *ngIf="jogo == null ||jogo == undefined || jogo.id === 0">
+		<button (click)="add(); goBack();">SALVAR</button>
+    </div>
+	<!-- <app-messages></app-messages> -->
+	</div>
+
+
+	<!-- 
+Copyright 2017-2018 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->

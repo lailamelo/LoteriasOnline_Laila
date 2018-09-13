@@ -1,0 +1,15 @@
+import { Jogo } from './jogo';
+import { APOSTADORES } from './mock-apostadores';
+import { PRODUTOS } from './mock-produtos';
+
+export const JOGOS: Jogo[] = [
+  { id: 1, apostador: APOSTADORES[0], produto: PRODUTOS[0], lista_numeros: [2,14,15,25,33,54], dthr: '11/09/2018 14:41', name: '2 14 15 25 33 54' },
+  { id: 2, apostador: APOSTADORES[0], produto: PRODUTOS[0], lista_numeros: [3,15,17,28,38,50], dthr: '11/09/2018 15:30', name: '3 15 17 28 38 50' }
+];
+
+
+/*
+Copyright 2017-2018 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+*/

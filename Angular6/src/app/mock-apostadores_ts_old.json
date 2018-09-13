@@ -1,0 +1,9 @@
+import { Apostador } from './apostador';
+
+export const APOSTADORES: Apostador[] = [
+  { id: 1, name: 'Daniel' },
+  { id: 2, name: 'Marcos' },
+  { id: 3, name: 'Marcela' },
+  { id: 4, name: 'Joaquim' },
+  { id: 5, name: 'Fernanda' }
+];

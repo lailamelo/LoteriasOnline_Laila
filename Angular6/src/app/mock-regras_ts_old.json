@@ -1,0 +1,7 @@
+import { Regra } from './regra';
+
+export const REGRAS: Regra[] = [
+  { id: 1, name: 'Sena', qtd_vencer: 6 },
+  { id: 2, name: 'Quina', qtd_vencer: 5 },
+  { id: 3, name: 'Quadra', qtd_vencer: 4}
+];

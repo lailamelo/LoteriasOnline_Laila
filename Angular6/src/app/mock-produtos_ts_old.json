@@ -1,0 +1,36 @@
+import { Produto } from './produto';
+
+import { Regra } from './regra';
+import { REGRAS } from './mock-regras';
+
+export const REGRAS_MEGASENA: Regra[] = [
+  REGRAS[0],
+  REGRAS[1],
+  REGRAS[2]
+];
+
+// export const REGRAS_QUINA: Regra[] = [
+//   REGRAS[1],
+//   REGRAS[2]
+// ];
+
+export const PRODUTOS: Produto[] = [
+  { id: 1, name: 'mega-sena', qtd_max: 6, lista_regras: REGRAS_MEGASENA }
+  //{ id: 2, name: 'quina', qtd_max: 5, lista_regras: REGRAS_QUINA }
+  // { id: 1, name: 'mega-sena' },
+  // { id: 2, name: 'lotofácil' },
+  // { id: 3, name: 'quina' },
+  // { id: 4, name: 'lotomania' },
+  // { id: 5, name: 'timemania' },
+  // { id: 6, name: 'dupla sena' },
+  // { id: 7, name: 'loteca' },
+  // { id: 8, name: 'lotogol' },
+  // { id: 9, name: 'dia de sorte' }
+];
+
+
+/*
+Copyright 2017-2018 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+*/

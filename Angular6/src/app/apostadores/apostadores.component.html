@@ -1,0 +1,28 @@
+<h1>Apostadores</h1>
+
+<div>
+  <label>Nome:
+    <input #apostadorNome />
+  </label>
+  <!-- (click) passes input value to add() and then clears the input -->
+  <button (click)="add(apostadorNome.value); apostadorNome.value=''">
+    Adicionar
+  </button>
+</div>
+
+<ul class="apostadores">
+  <li *ngFor="let apostador of apostadores">
+    <a routerLink="/detailApostador/{{apostador.id}}">
+      <span class="badge">{{apostador.id}}</span> {{apostador.name}}
+    </a>
+    <button class="delete" title="delete apostador"
+      (click)="delete(apostador)">x</button>
+  </li>
+</ul>
+
+
+<!-- 
+Copyright 2017-2018 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->

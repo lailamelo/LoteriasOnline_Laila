@@ -1,0 +1,28 @@
+<h1>Produtos</h1>
+
+<div>
+  <label>Nome:
+    <input #produtoNome />
+  </label>
+  <!-- (click) passes input value to add() and then clears the input -->
+  <button (click)="add(produtoNome.value); produtoNome.value=''">
+    Adicionar
+  </button>
+</div>
+
+<ul class="produtos">
+  <li *ngFor="let produto of produtos">
+    <a routerLink="/detailProduto/{{produto.id}}">
+      <span class="badge">{{produto.id}}</span> {{produto.name}}
+    </a>
+    <button class="delete" title="delete produto"
+      (click)="delete(produto)">x</button>
+  </li>
+</ul>
+
+
+<!-- 
+Copyright 2017-2018 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->

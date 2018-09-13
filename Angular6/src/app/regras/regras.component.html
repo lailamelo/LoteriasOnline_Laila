@@ -1,0 +1,28 @@
+<h1>Regras</h1>
+
+<div>
+  <label>Nome:
+    <input #regraNome />
+  </label>
+  <!-- (click) passes input value to add() and then clears the input -->
+  <button (click)="add(regraNome.value); regraNome.value=''">
+    Adicionar
+  </button>
+</div>
+
+<ul class="regras">
+  <li *ngFor="let regra of regras">
+    <a routerLink="/detailRegra/{{regra.id}}">
+      <span class="badge">{{regra.id}}</span> {{regra.name}}
+    </a>
+    <button class="delete" title="delete regra"
+      (click)="delete(regra)">x</button>
+  </li>
+</ul>
+
+
+<!-- 
+Copyright 2017-2018 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->

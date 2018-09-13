@@ -1,0 +1,21 @@
+<div class="grid grid-pad">
+  <div class="col-1-1">
+  <h2>Resultado da Mega-Sena</h2>
+  </div>
+	<label *ngFor="let item of concurso.lista_numeros" class="col-1-6">
+		<div class="resultado jogo">
+			<h4>{{item}}</h4>
+		</div>
+	</label>
+</div>
+
+<div class="grid grid-pad">
+  <div class="col-1-1">
+  <h2>Vencedores</h2>
+  </div>
+	<label *ngFor="let item of vencedores" class="col-1-6">
+		<div class="resultado jogo">
+			<h4>{{item}}</h4>
+		</div>
+	</label>
+</div>
